@@ -1,0 +1,206 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.navbar-logo {
+	padding: 10px;
+	display: inline;
+	float: left;
+}
+
+.navbar-logo img {
+	max-width: 100px;
+}
+
+.menu-active {
+	background-color: #ffaa20;
+	-webkit-box-shadow: 0px -6px 0px 0px rgba(255,170,32,1),0px 6px 0px 0px rgba(255,170,32,1);
+	-moz-box-shadow: 0px -6px 0px 0px rgba(255,170,32,1),0px 6px 0px 0px rgba(255,170,32,1);
+	box-shadow: 0px -6px 0px 0px rgba(255,170,32,1),0px 6px 0px 0px rgba(255,170,32,1);
+}
+
+.banner{
+    background: transparent url('../img/bannerv2.jpg') no-repeat center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    text-align: center;
+    width: 100%;
+	margin-top: -20px;
+    height: 400px;
+	color: #fff;
+	z-index: -1;
+}
+
+.bannerlayer {
+	background-color: rgba(255,170,32,0);
+	height: 400px;
+	position:relative; 
+	top:0px; 
+	height:400px;
+}
+
+.banner h1 {
+	font-size: 32px;
+	padding-top: 80px;
+}
+
+.banner h2 {
+	font-size: 26px;
+	padding-top: 20px;
+}
+
+.banner h6 {
+	font-size: 18px;
+	opacity: 0.8;
+	margin-top: -7px;
+}
+
+.optimusgaming {
+	text-decoration: none;
+}
+
+.optimusgaming:hover {
+	text-decoration: none;
+	background-color: rgba(255,255,255,0.1)
+}
+
+.btn-transparent {
+	background-color: rgba(255,255,255,0.2);
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 2px;
+	font-size: 16px;
+	color: #fff;
+	padding: 5px 15px 5px 15px;
+	text-transform: uppercase;
+}
+
+.btn-transparent:hover {
+	background-color: rgba(255,255,255,1);
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 2px;
+	color: #222222;
+	font-size: 16px;
+	padding: 5px 15px 5px 15px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+.spacer1 {
+	height: 10px;
+}
+
+.bannerfooter {
+	background-color: rgba(255,255,255,0.2);
+	border-top: 1px solid rgba(255,255,255,0.5);
+	margin-top: 65px;
+	height: 42px;
+	padding-top: 10px;
+}
+
+.footer {
+	background-color: #222;
+	width: 100%;
+	margin-top: 50px;
+	color: #dbdbdb;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	border-top: 2px solid #ffaa20;
+}
+
+
+.social-icon-fb {
+    background: url('../img/social-icon-fb.png') no-repeat;
+    width: 42px;
+    height: 42px;
+    display: block;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-khtml-border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+
+.social-icon-fb:hover {
+    background: url('../img/social-icon-fb-over.png') no-repeat;
+}
+
+.social-icon-twitter {
+    background: url('../img/social-icon-twitter.png') no-repeat;
+    width: 42px;
+    height: 42px;
+    display: block;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-khtml-border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+
+a:hover .social-icon-twitter {
+    background: url('../img/social-icon-twitter-over.png') no-repeat;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fourofourbox {
+	background-color: rgb(255,255,255);
+	width: 100%;
+	color: #3e3e3e;
+	margin-left: auto;
+    margin-right: auto; 
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.3),0px -1px 1px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    0px 1px 1px 0px rgba(50, 50, 50, 0.3),0px -1px 1px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         0px 1px 1px 0px rgba(50, 50, 50, 0.3),0px -1px 1px 0px rgba(50, 50, 50, 0.3);
+}
+
+.fourofourcontent{
+	margin: 0 auto;
+	padding-top: 45px;
+	padding-bottom: 65px;
+}
+
+.fourofourcontent h2 {
+	font-size: 24px;
+	margin-bottom: -10px;
+}
+
+.fourofourcontent h3 {
+	font-size: 18px;
+}
+
+.fourofourlayer {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 250%;
+	position:fixed;
+	z-index:-2;	
+}
+
+.fourofournoise {
+	background-image: url('../img/noise.png');
+	width: 100%;
+    height: 250%;
+	position:fixed;
+	z-index:-1;
+}
